@@ -1,15 +1,14 @@
-// CCS221 start.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 using namespace std;
 int main()
 {
-	char first, middle, last;
-	first = 'A';
-	middle = 'R';
-	last = 'T';
-	cout << first << middle << last;
+	string name, address, phone;
+	name = "Alexander Thompson";
+	address = "147 My Street, Newport News, VA";
+	phone = "757 - 532 - 2184";
+	cout << name << endl;
+	cout << address << endl;
+	cout << phone << endl;
 	return 0;
 }
 
