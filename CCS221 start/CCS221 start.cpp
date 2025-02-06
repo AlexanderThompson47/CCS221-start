@@ -2,13 +2,10 @@
 using namespace std;
 int main()
 {
-	string name, address, phone;
-	name = "Alexander Thompson";
-	address = "147 My Street, Newport News, VA";
-	phone = "757 - 532 - 2184";
-	cout << name << endl;
-	cout << address << endl;
-	cout << phone << endl;
+	int age = 20;
+	double weight = 170;
+	cout << "my age is " << age << " and my weight is " << weight <<
+		endl;
 	return 0;
 }
 
